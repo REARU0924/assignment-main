@@ -1,0 +1,7 @@
+load_variable,raw_best_lag_hours,raw_correlation,raw_best_lag_within_24h,raw_correlation_within_24h,adjusted_best_lag_hours,adjusted_candidate_lag_hours,adjusted_correlation,adjusted_lag_status,adjusted_best_lag_within_24h,adjusted_candidate_lag_within_24h,adjusted_correlation_within_24h,adjusted_24h_lag_status
+HUFL,-129,0.17293118830805151,-9,0.16092924465448716,,-164,0.05100546642784564,Peak below exploratory threshold,,-24,0.024114433416720076,Peak below exploratory threshold
+HULL,10,0.26318585709234954,10,0.26318585709234954,5.0,5,0.3723689154161817,Candidate peak,5.0,5,0.3723689154161817,Candidate peak
+MUFL,-129,0.17469246389845397,-9,0.15538779524854301,,4,-0.07615224242311103,Peak below exploratory threshold,,4,-0.07615224242311103,Peak below exploratory threshold
+MULL,10,0.2541124325529765,10,0.2541124325529765,5.0,5,0.3273474731149148,Candidate peak,5.0,5,0.3273474731149148,Candidate peak
+LUFL,7,0.13311104960276068,7,0.13311104960276068,4.0,4,0.30670581737313724,Candidate peak,4.0,4,0.30670581737313724,Candidate peak
+LULL,6,0.07856836097886627,6,0.07856836097886627,5.0,5,0.19477135401221912,Candidate peak,5.0,5,0.19477135401221912,Candidate peak
