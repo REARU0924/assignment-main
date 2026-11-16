@@ -1,0 +1,7 @@
+load_variable,strongest_lag_hours,correlation,interpretation
+HUFL,-129,0.17293118830805151,OT leads
+HULL,10,0.26318585709234954,Load leads
+MUFL,-129,0.17469246389845397,OT leads
+MULL,10,0.2541124325529765,Load leads
+LUFL,7,0.13311104960276068,Load leads
+LULL,6,0.07856836097886627,Load leads
