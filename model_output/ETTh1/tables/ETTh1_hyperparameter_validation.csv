@@ -1,0 +1,13 @@
+model,lookback_hours,lstm_units,learning_rate,epochs_run,best_epoch,validation_MAE,selected
+LSTM: OT + calendar,24,16,0.0003,6,1,0.40184783935546875,False
+LSTM: OT + calendar,24,16,0.001,8,3,0.4015560448169708,True
+LSTM: OT + calendar,24,32,0.0003,6,1,0.4073207676410675,False
+LSTM: OT + calendar,24,32,0.001,9,4,0.403856098651886,False
+LSTM: OT + calendar,24,64,0.0003,9,4,0.4057939052581787,False
+LSTM: OT + calendar,24,64,0.001,9,4,0.40495526790618896,False
+LSTM: OT + calendar + load,24,16,0.0003,6,1,0.40451687574386597,False
+LSTM: OT + calendar + load,24,16,0.001,7,2,0.41975724697113037,False
+LSTM: OT + calendar + load,24,32,0.0003,6,1,0.40860044956207275,False
+LSTM: OT + calendar + load,24,32,0.001,7,2,0.40414971113204956,False
+LSTM: OT + calendar + load,24,64,0.0003,7,2,0.4108145236968994,False
+LSTM: OT + calendar + load,24,64,0.001,7,2,0.4028301537036896,True

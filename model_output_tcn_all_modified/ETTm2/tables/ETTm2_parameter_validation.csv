@@ -1,0 +1,15 @@
+dataset,stage,feature_set,preset,filters,dropout,learning_rate,correction_weight,validation_MAE,validation_RMSE,selected
+ETTm2,learning_preset,TCN: OT + calendar,base,32,0.0,0.001,1.0,0.14654524624347687,0.1896433907180117,False
+ETTm2,learning_preset,TCN: OT + calendar,reg,32,0.2,0.001,1.0,0.14154976606369019,0.18020719548970535,False
+ETTm2,learning_preset,TCN: OT + calendar,light,16,0.1,0.001,1.0,0.15619933605194092,0.19905653127168743,False
+ETTm2,learning_preset,TCN: OT + calendar,slow_lr,32,0.1,0.0005,1.0,0.1414729803800583,0.18303487815732414,True
+ETTm2,inference_weight,TCN: OT + calendar,slow_lr,32,0.1,0.0005,0.5,0.1583605855703354,0.2241664001281269,False
+ETTm2,inference_weight,TCN: OT + calendar,slow_lr,32,0.1,0.0005,0.75,0.14472435414791107,0.1938310707357389,False
+ETTm2,inference_weight,TCN: OT + calendar,slow_lr,32,0.1,0.0005,1.0,0.1414729803800583,0.18303487815732414,True
+ETTm2,learning_preset,TCN: OT + calendar + selected load,base,32,0.0,0.001,1.0,0.154146209359169,0.19809554929588613,False
+ETTm2,learning_preset,TCN: OT + calendar + selected load,reg,32,0.2,0.001,1.0,0.14144082367420197,0.1828333141834883,True
+ETTm2,learning_preset,TCN: OT + calendar + selected load,light,16,0.1,0.001,1.0,0.15111562609672546,0.19335827682645654,False
+ETTm2,learning_preset,TCN: OT + calendar + selected load,slow_lr,32,0.1,0.0005,1.0,0.1479240506887436,0.19332045346415067,False
+ETTm2,inference_weight,TCN: OT + calendar + selected load,reg,32,0.2,0.001,0.5,0.16397076845169067,0.23401227539522013,False
+ETTm2,inference_weight,TCN: OT + calendar + selected load,reg,32,0.2,0.001,0.75,0.15016911923885345,0.20230227527701294,False
+ETTm2,inference_weight,TCN: OT + calendar + selected load,reg,32,0.2,0.001,1.0,0.14144082367420197,0.1828333141834883,True
